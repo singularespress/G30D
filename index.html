@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Desfuda sua Vida Financeira em 30 Dias</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e1e;
+      color: #fff;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 0 12px 40px 12px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 0 20px 0;
+    }
+    .ebook-cover {
+      max-width: 220px;
+      width: 90%;
+      margin: 0 auto 20px auto;
+      display: block;
+      border-radius: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.45);
+    }
+    .headline {
+      font-size: 2rem;
+      color: #ffc107;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .subheadline {
+      font-size: 1.1rem;
+      color: #fff;
+      margin-bottom: 18px;
+      font-weight: 400;
+    }
+    .cta-btn {
+      background: linear-gradient(90deg,#ff4500 60%, #ffc107 100%);
+      padding: 16px 0;
+      font-size: 1.2rem;
+      color: #1e1e1e;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      display: block;
+      margin: 18px auto 0 auto;
+      max-width: 320px;
+      box-shadow: 0 3px 16px rgba(255,69,0,0.18);
+      transition: background 0.2s ease-in-out;
+      text-align: center;
+    }
+    .cta-btn:hover,
+    .cta-btn:focus {
+      background: linear-gradient(90deg,#e63946 60%, #ffc107 100%);
+      box-shadow: 0 5px 20px rgba(230, 57, 70, 0.5);
+      outline: none;
+    }
+    .benefits {
+      margin: 30px 0 0 0;
+    }
+    .benefits ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .benefits li {
+      font-size: 1.08rem;
+      margin-bottom: 12px;
+      text-align: left;
+      position: relative;
+      padding-left: 28px;
+      font-weight: 500;
+    }
+    .benefits li::before {
+      content: "✅";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #ffc107;
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+    .testimonials {
+      background: #292929;
+      padding: 20px 12px;
+      border-radius: 7px;
+      margin: 32px 0 0 0;
+    }
+    .testimonial {
+      margin-bottom: 18px;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .testimonial b {
+      color: #ffc107;
+      font-weight: 700;
+      display: block;
+      margin-top: 6px;
+    }
+    .comparativo {
+      font-size: 1.1rem;
+      color: #ff4500;
+      text-align: center;
+      margin-top: 24px;
+      font-weight: 600;
+    }
+    .audio-bonus {
+      background: #252525;
+      padding: 18px 10px;
+      border-radius: 7px;
+      margin-top: 28px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    .garantia {
+      background: #232323;
+      color: #ffc107;
+      border-radius: 7px;
+      padding: 12px;
+      margin: 28px 0 0 0;
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .faq {
+      background: #222;
+      border-radius: 7px;
+      padding: 16px 10px;
+      margin: 32px 0 0 0;
+      font-weight: 400;
+    }
+    .faq h2 {
+      color: #ffc107;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .faq-item {
+      margin-bottom: 12px;
+    }
+    .faq-q {
+      font-weight: 700;
+      color: #ffc107;
+      cursor: pointer;
+      user-select: none;
+    }
+    .faq-a {
+      color: #fff;
+      margin-top: 3px;
+      padding-left: 12px;
+      line-height: 1.4;
+    }
+    .urgency {
+      color: #ff4500;
+      text-align: center;
+      font-weight: 700;
+      margin-top: 16px;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0 0 0;
+      font-size: 0.95rem;
+      color: #bbb;
+      font-weight: 400;
+    }
+    @media (max-width: 480px) {
+      .headline {
+        font-size: 1.6rem;
+      }
+      .subheadline {
+        font-size: 1rem;
+      }
+      .cta-btn {
+        font-size: 1rem;
+        max-width: 260px;
+      }
+      .benefits li {
+        font-size: 1rem;
+      }
+      .comparativo {
+        font-size: 1rem;
+      }
+      .audio-bonus {
+        font-size: 0.95rem;
+      }
+      .garantia {
+        font-size: 1rem;
+      }
+      .faq h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://drive.google.com/uc?export=view&id=1-BMxRhlv3KDl2LGpQBskS4FYnK9VxSBs" alt="Capa do Ebook 30 Dias Pra Desfuder Sua Vida Financeira" class="ebook-cover" loading="lazy" />
+      <div class="headline">Desfuda sua Vida Financeira em 30 Dias</div>
+      <div class="subheadline">Método prático, tarefas diárias e resultado garantido. Para quem cansou de promessas e quer transformação real!</div>
+      <a href="thankyou.html" class="cta-btn">Quero mudar minha vida agora</a>
+      <div class="urgency">🔥 Oferta especial: só hoje por R$ 14,90!</div>
+    </header>
+
+    <section class="benefits">
+      <h2>O que você vai conquistar:</h2>
+      <ul>
+        <li>Descobrir por onde seu dinheiro está escapando</li>
+        <li>Cortar gastos sem virar monge ou passar vontade</li>
+        <li>Começar a ganhar dinheiro extra (sim, de verdade)</li>
+        <li>Destravar sua mentalidade e parar de se sabotar</li>
+        <li>Enxergar a aposentadoria como algo possível</li>
+      </ul>
+    </section>
+
+    <section class="comparativo">
+      Menos que um lanche, menos que a conta de luz, menos que um delivery no fim de semana.<br />
+      <strong>Por apenas R$ 14,90</strong> você começa a mudar de verdade.
+    </section>
+
+    <section class="testimonials">
+      <h2>Quem já fez, recomenda:</h2>
+      <div class="testimonial">
+        "Eu estava endividado há anos. Depois de 30 dias com o guia, minha visão sobre dinheiro mudou. Hoje, já estou livre das dívidas e começando a investir!"
+        <b>- João, 34 anos</b>
+      </div>
+      <div class="testimonial">
+        "Nunca pensei que algo tão simples fosse tão eficaz. Cortei 50% dos meus gastos e já tenho renda extra rolando!"
+        <b>- Maria, 34 anos</b>
+      </div>
+      <div class="testimonial">
+        "Me sinto mais tranquilo com meu dinheiro e agora tenho um plano de longo prazo. O melhor investimento que já fiz!"
+        <b>- Carlos, 34 anos</b>
+      </div>
+    </section>
+
+    <section class="audio-bonus">
+      <h2>Bônus Especial: Áudio de Desbloqueio Mental</h2>
+      <p>Além do guia, você recebe um mini-álbum de áudio para ouvir durante os 30 dias e reprogramar sua mente para resultados.</p>
+    </section>
+
+    <div class="garantia">Garantia 7 Dias: Não gostou? Devolvemos seu dinheiro. Sem letras miúdas!</div>
+
+    <section class="faq">
+      <h2>Perguntas Frequentes</h2>
+      <div class="faq-item">
+        <div class="faq-q">Preciso ganhar muito para fazer o desafio?</div>
+        <div class="faq-a">Não! O método funciona para qualquer renda. O importante é começar.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">É só leitura ou tem tarefa?</div>
+        <div class="faq-a">São tarefas diárias, práticas e rápidas. Você aprende fazendo.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Como recebo o ebook?</div>
+        <div class="faq-a">Após o pagamento, você recebe o ebook e o áudio bônus no seu e-mail.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">E se eu não gostar?</div>
+        <div class="faq-a">Você tem 7 dias para pedir reembolso total. Sem letras miúdas.</div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>Copyright Singularis Press | Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
